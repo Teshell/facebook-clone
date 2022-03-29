@@ -64,7 +64,9 @@ const Header = () => {
           alt="profile pic"
         />
 
-        <p className="whitespace-nowrap font-semibold pr-3">Zinedine Hamadi</p>
+        <p className="whitespace-nowrap font-semibold pr-3">
+          {session.user.name}
+        </p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />
         <BellIcon className="icon" />
